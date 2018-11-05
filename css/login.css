@@ -1,0 +1,133 @@
+/****************************全局样式****************************/
+*{
+	margin:0;
+	padding:0;
+}
+.w{
+	width:1200px;
+	margin:0 auto;
+}
+body{
+	font:12px/1.5 "Microsoft YaHei",tahoma,arial,sans-serif;
+}
+ul li{
+	list-style:none;
+}
+a{
+	text-decoration: none;
+	color:#333;
+}
+.clearfix{
+	zoom: 1;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear:both;
+}
+/*头部*/
+.header{
+	height:100px;
+	line-height:100px;
+}
+.header a{
+	display:block;
+}
+.header img{
+	width:200px;
+}
+/*内容区*/	
+.main{
+	background:rgb(135, 55, 255);
+}
+.main_pic{
+	position:relative;
+}
+.form{
+	width:370px;
+	height:400px;
+	background:#fff;
+	position:absolute;
+	right:100px;
+	top:100px;
+	padding:40px 30px;
+	box-sizing:border-box;
+}
+.form h3{
+	font-size:20px;
+	color:#333;
+}
+.form input{
+	width:260px;
+	height:40px;
+	padding-left:10px;
+	float:left;
+	border:none;
+	outline: none;
+}
+.form div{
+	width:310px;
+	height:40px;
+	border:1px solid #ccc;
+	margin-top:30px;
+}
+.form i{
+	float:left;
+	display:inline-block;
+	color:#eee;
+	padding:0 5px;
+	font-size:27px;
+	background:#aaa;
+}
+
+.btn{
+	border:none;
+	border-radius:10px;
+	background:red;
+	color:#fff;
+	text-align:center;
+	line-height:40px;
+	font-size:18px;
+}
+.login_puf{
+	margin-top:20px;
+	float:right;
+}
+.login_puf li{
+	float:left;
+	margin-left:10px;
+}
+/*底部*/
+.footer{
+	padding-top:30px;
+}
+.info li{
+	float:left;
+}
+.info li a{
+	padding:0 5px;
+}
+.fastlink{
+	margin-top:20px;
+}
+.fastlink li{
+	float:left;
+}
+.fastlink li a{
+	padding:0 5px;
+}
+.infos{
+	margin-top:20px;
+}
+.infos li{
+	float:left;
+	margin-right:70px;
+	line-height:20px;
+	color:#666;
+}
+.infos li a{
+	color:#aaa;
+}
+.copy{
+	color:#888;
+}

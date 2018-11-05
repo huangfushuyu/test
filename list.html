@@ -1,0 +1,1469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>列表页</title>
+    <link rel="stylesheet" type="text/css" href="css/list.css">
+    <link rel="stylesheet" type="text/css" href="css/iconfont.css">
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/list.js"></script>	
+</head>
+
+<body>
+    <div class="header">
+        <div class="w">
+            <ul class="header_l">
+                <li><a href="#" class="l_link"><i class="icon iconfont icon-31shouyexuanzhong"></i>天猫首页</a></li>
+                <li><a>喵,欢迎来天猫</a></li>
+                <li><a href="#" class="l_link">请登录</a></li>
+                <li><a href="#" class="l_link">免费注册</a></li>
+            </ul>
+            <ul class="header_r">
+                <li>
+                    <a href="#" class="my">我的淘宝<i class="icon iconfont icon-sanjiao1"></i></a>
+                    <div class="down">
+                        <p><a href="#">已买到的宝贝</a></p>
+                        <p><a href="#">已卖出的宝贝</a></p>
+                    </div>
+                </li>
+                <li><a href="#"><i class="icon iconfont icon-31gouwuchexuanzhong"></i>购物车0件</a></li>
+                <li><a href="#" class="my">收藏夹<i class="icon iconfont icon-sanjiao1"></i></a>
+                    <div class="down">
+                        <p><a href="#">已买到的宝贝</a></p>
+                        <p><a href="#">已卖出的宝贝</a></p>
+                    </div>
+                </li>
+                <li><a href="#"><i class="icon iconfont icon-shouji"></i>手机版</a>
+                    <div class="down ip_down">
+                        <a href="#"><img src="img/index/ip1.png" alt=""></a>
+                        <a href="#"><img src="img/index/ip2.png" alt=""></a>
+                    </div>
+                </li>
+                <li><a href="#">淘宝网</a></li>
+                <li><a href="#" class="my">商家支持<i class="icon iconfont icon-sanjiao1"></i></a>
+                    <div class="down store_down">
+                        <h6>商家支持:</h6>
+                        <ul>
+                            <li><a href="#">商家中心</a></li>
+                            <li><a href="#">天猫规则</a></li>
+                            <li><a href="#">商家入驻</a></li>
+                            <li><a href="#">运营服务</a></li>
+                            <li><a href="#">商家品控</a></li>
+                            <li><a href="#">商家工具</a></li>
+                            <li><a href="#">天猫智库</a></li>
+                            <li><a href="#">喵言喵语</a></li>
+                        </ul>
+                        <h6>帮助:</h6>
+                        <ul>
+                            <li><a href="#">帮助中心</a></li>
+                            <li><a href="#">问商友</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="my">
+                    <i class="icon iconfont icon-liebiao1"></i>
+                    	网站导航
+                    <i class="icon iconfont icon-sanjiao1"></i>
+                    </a>
+                    <div class="down web_down">
+                        <div class="web_l">
+                            <h6>热点推荐Hot</h6>
+                            <ul>
+                                <li><a href="#">天猫超市</a></li>
+                                <li><a href="#">喵鲜生</a></li>
+                                <li><a href="#">科技新品</a></li>
+                                <li><a href="#">女装新品</a></li>
+                                <li><a href="#">酷玩街</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">内衣新品</a></li>
+                                <li><a href="#">试美妆</a></li>
+                                <li><a href="#">运动新品</a></li>
+                                <li><a href="#">时尚先生</a></li>
+                                <li><a href="#">精明妈咪</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">吃乐会</a></li>
+                                <li><a href="#">企业采购</a></li>
+                                <li><a href="#">会员积分</a></li>
+                                <li><a href="#">天猫国际</a></li>
+                                <li><a href="#">品质频道</a></li>
+                            </ul>
+                        </div>
+                        <div class="web_c">
+                            <h6>行业市场Market</h6>
+                            <ul>
+                                <li><a href="#">美妆</a></li>
+                                <li><a href="#">电器</a></li>
+                                <li><a href="#">女装</a></li>
+                                <li><a href="#">男装</a></li>
+                                <li><a href="#">女鞋</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">男鞋</a></li>
+                                <li><a href="#">内衣</a></li>
+                                <li><a href="#">箱包</a></li>
+                                <li><a href="#">运动</a></li>
+                                <li><a href="#">母婴</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">家装</a></li>
+                                <li><a href="#">医药</a></li>
+                                <li><a href="#">食品</a></li>
+                                <li><a href="#">配饰</a></li>
+                                <li><a href="#">汽车</a></li>
+                            </ul>
+                        </div>
+                        <div class="web_r">
+                            <h6>服务指南Help</h6>
+                            <ul>
+                                <li><a href="#">天猫超市</a></li>
+                                <li><a href="#">喵鲜生</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">科技新品</a></li>
+                                <li><a href="#">女装新品</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 搜索框 -->
+    <div class="search clearfix">
+        <div class="w">
+            <div class="search_pic">
+            </div>
+            <div class="ipt">
+                <input type="text" name="search" class="search_ipt" placeholder="搜索 天猫 商品/品牌/店铺">
+                <button>搜索</button>
+            </div>
+        </div>
+    </div>
+    <!-- 列表、轮播图 -->
+    <div class="cloumn w clearfix">
+    	<ul>
+    		<li><a href="#">电器城首页</a></li>
+    		<li><a href="#">新首发</a></li>
+    		<li><a href="#">酷玩街</a></li>
+    		<li><a href="#">花呗分期</a></li>
+    		<li><a href="#">手机馆</a></li>
+    		<li><a href="#">苏宁易购</a></li>
+    	</ul>
+    	<div class="cloumn_r">
+    		<a href="#">电器城服务台</a>
+    	</div>
+    </div>
+    <div class="menu w clearfix">
+    	<div class="banner">
+    		<ul class="banner_pic">
+    			<li class="active"><a href="#"><img src="img/list/banner1.jpg" alt=""></a></li>
+    			<li><a href="#"><img src="img/list/banner2.jpg" alt=""></a></li>
+    			<li><a href="#"><img src="img/list/banner3.jpg" alt=""></a></li>
+    			<li><a href="#"><img src="img/list/banner4.jpg" alt=""></a></li>
+    			<li><a href="#"><img src="img/list/banner5.jpg" alt=""></a></li>
+    			<li><a href="#"><img src="img/list/banner6.jpg" alt=""></a></li>
+    			<li><a href="#"><img src="img/list/banner7.jpg" alt=""></a></li>
+    		</ul>
+    		<ul class="num">
+    			<li class="num_active">1</li>
+    			<li>2</li>
+    			<li>3</li>
+    			<li>4</li>
+    			<li>5</li>
+    			<li>6</li>
+    			<li>7</li>
+    		</ul>
+    	</div>
+    	<div class="menu_info">
+    		<a href="#"><img src="img/list/ziying.png" alt=""></a>
+    	</div>
+    	<div class="menu_list">
+    		<dl>
+    			<dt><i class="icon iconfont icon-yiguanzhu1"></i>热门品牌</dt>
+    			<dd><a href="#">小米</a></dd>
+    			<dd><a href="#">荣耀</a></dd>
+    			<dd><a href="#">苹果</a></dd>
+    			<dd><a href="#">魅族</a></dd>
+    			<dd><a href="#">华为</a></dd>
+    			<dd><a href="#">三星</a></dd>
+    		</dl>
+    		<dl>
+    			<dt><i class="icon iconfont icon-yiguanzhu1"></i>价格预算</dt>
+    			<dd><a href="#">1000元以下</a></dd>
+    			<dd><a href="#">1000-1500元</a></dd>
+    			<dd><a href="#">1500-2500元</a></dd>
+    			<dd><a href="#">2500以上</a></dd>
+    		</dl>
+    		<dl>
+    			<dt><i class="icon iconfont icon-yiguanzhu1"></i>网络类型</dt>
+    			<dd><a href="#">移动</a></dd>
+    			<dd><a href="#">联通</a></dd>
+    			<dd><a href="#">电信</a></dd>
+    		</dl>
+    		<dl>
+    			<dt><i class="icon iconfont icon-yiguanzhu1"></i>屏幕大小</dt>
+    			<dd><a href="#">4.5英寸以下</a></dd>
+    			<dd><a href="#">4.5-5.0英寸</a></dd>
+    			<dd><a href="#">5.0-5.5英寸</a></dd>
+    			<dd><a href="#">5.5英寸以上</a></dd>
+    		</dl>
+    	</div>
+    </div>
+    <!-- 热门机型 -->
+    <div class="hotphone w clearfix">
+    	<h1>热门机型</h1>
+    	<h6>近期上市新机</h6>
+    	<ul class="phone w">
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p1.webp" alt=""></a>
+    				<a href="#" class="pic_t">OPPO Find X 曲面全景屏 8GB+128GB全网通双卡双待拍照手机</a>
+    				<p>双曲面屏幕隐藏式相机</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1399</span>
+    				<span>已售:50782</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p2.webp" alt=""></a>
+    				<a href="#" class="pic_t">荣耀Play</a>
+    				<p>GPU Turbo 让快更快</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1999</span>
+    				<span>已售:27693</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p3.webp" alt=""></a>
+    				<a href="#" class="pic_t">vivo Y85全面屏</a>
+    				<p>新品上市 购机赠豪礼</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1598</span>
+    				<span>已售:4516</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p4.webp" alt=""></a>
+    				<a href="#" class="pic_t">HUAWEI P20</a>
+    				<p>旗舰新品 震撼开售</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥3788</span>
+    				<span>已售:50782</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p5.webp" alt=""></a>
+    				<a href="#" class="pic_t">HUAWEI P20 Pro</a>
+    				<p>4000万徕卡三摄 AI摄影大师</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥4988</span>
+    				<span>已售:12466</span>
+    			</div>
+    		</li>
+    	</ul>
+    </div>
+    <!-- 品牌上新计划 -->
+    <ul class="newplan w clearfix" id="newplan">
+    	<li class="date"></li>
+    	<li class="plan_pic"></li>
+    	<li><a href="#">苹果</a></li>
+    	<li><a href="#">荣耀</a></li>
+    	<li><a href="#">小米</a></li>
+    	<li><a href="#">华为</a></li>
+    	<li><a href="#">vivo</a></li>
+    	<li><a href="#">OPPO</a></li>
+    	<li><a href="#">魅族</a></li>
+    	<li><a href="#">三星</a></li>
+    	<li><a href="#">美图</a></li>
+    	<li><a href="#">360</a></li>
+    	<li><a href="#">努比亚</a></li>
+    	<li><a href="#">实惠精选</a></li>
+    	<li><a href="#">诺基亚</a></li>
+    </ul>
+    <!-- floor1 -->
+    <div class="floor one w clearfix">
+    	<div class="floor_t">
+    		<h1><span>1F</span><img src="img/list/1f.webp" alt=""></h1>
+    		<div><span>客服工作时间</span><span>周一至周日9:00-21:00</span></div>
+    		<div class="free"><i class="icon iconfont icon-yiguanzhu1"></i>免费的直接送货上门服务</div>
+    		<p>查找服务网点></p>
+    	</div>
+    	<div class="floor_pic">
+    		<div class="pic_l">
+    			<img src="img/list/1f1.webp" alt="">
+    			<div class="pic_info">
+    				<p>Apple/苹果</p>
+    				<p><span><i class="icon iconfont icon-31guanzhu1xuanzhong"></i>关注</span></p>
+    			</div>
+    		</div>
+    		<div class="pic_r">
+    			<img src="img/list/1f2.jpg" alt="">
+    		</div>
+    	</div>
+    	<ul class="phone w">
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p1.webp" alt=""></a>
+    				<a href="#" class="pic_t">OPPO Find X 曲面全景屏 8GB+128GB全网通双卡双待拍照手机</a>
+    				<p>双曲面屏幕隐藏式相机</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1399</span>
+    				<span>已售:50782</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p2.webp" alt=""></a>
+    				<a href="#" class="pic_t">荣耀Play</a>
+    				<p>GPU Turbo 让快更快</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1999</span>
+    				<span>已售:27693</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p3.webp" alt=""></a>
+    				<a href="#" class="pic_t">vivo Y85全面屏</a>
+    				<p>新品上市 购机赠豪礼</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1598</span>
+    				<span>已售:4516</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p4.webp" alt=""></a>
+    				<a href="#" class="pic_t">HUAWEI P20</a>
+    				<p>旗舰新品 震撼开售</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥3788</span>
+    				<span>已售:50782</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p5.webp" alt=""></a>
+    				<a href="#" class="pic_t">HUAWEI P20 Pro</a>
+    				<p>4000万徕卡三摄 AI摄影大师</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥4988</span>
+    				<span>已售:12466</span>
+    			</div>
+    		</li>
+    	</ul>
+    </div>
+    <!-- floor2 -->
+    <div class="floor w clearfix">
+    	<div class="floor_t">
+    		<h1><span>2F</span><img src="img/list/2f.webp" alt=""></h1>
+    		<div><span>3波畅快开抢</span><span>每周二 10:08</span></div>
+    		<div class="free"><i class="icon iconfont icon-yiguanzhu1"></i>400热线电话</div>
+    		<p>花粉社区&nbsp;&nbsp;&nbsp;&nbsp;查找服务网点></p>
+    	</div>
+    	<div class="floor_pic">
+    		<div class="pic_l">
+    			<img src="img/list/2f1.webp" alt="">
+    			<div class="pic_info">
+    				<p>荣耀</p>
+    				<p><span><i class="icon iconfont icon-31guanzhu1xuanzhong"></i>关注</span></p>
+    			</div>
+    		</div>
+    		<div class="pic_r">
+    			<img src="img/list/2f2.jpg" alt="">
+    		</div>
+    	</div>
+    	<ul class="phone w">
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p1.webp" alt=""></a>
+    				<a href="#" class="pic_t">OPPO Find X 曲面全景屏 8GB+128GB全网通双卡双待拍照手机</a>
+    				<p>双曲面屏幕隐藏式相机</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1399</span>
+    				<span>已售:50782</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p2.webp" alt=""></a>
+    				<a href="#" class="pic_t">荣耀Play</a>
+    				<p>GPU Turbo 让快更快</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1999</span>
+    				<span>已售:27693</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p3.webp" alt=""></a>
+    				<a href="#" class="pic_t">vivo Y85全面屏</a>
+    				<p>新品上市 购机赠豪礼</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1598</span>
+    				<span>已售:4516</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p4.webp" alt=""></a>
+    				<a href="#" class="pic_t">HUAWEI P20</a>
+    				<p>旗舰新品 震撼开售</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥3788</span>
+    				<span>已售:50782</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p5.webp" alt=""></a>
+    				<a href="#" class="pic_t">HUAWEI P20 Pro</a>
+    				<p>4000万徕卡三摄 AI摄影大师</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥4988</span>
+    				<span>已售:12466</span>
+    			</div>
+    		</li>
+    	</ul>
+    </div>
+    <!-- floor3 -->
+    <div class="floor w clearfix">
+    	<div class="floor_t">
+    		<h1><span>3F</span><img src="img/list/3f.webp" alt=""></h1>
+    		<div><span>小米Note3首发，2499元起</span></div>
+    		<div class="free"><i class="icon iconfont icon-yiguanzhu1"></i>400热线电话</div>
+    		<div class="free"><i class="icon iconfont icon-yiguanzhu1"></i>一小时快修</div>
+    		<p>米粉社区&nbsp;&nbsp;&nbsp;&nbsp;查找服务网点></p>
+    	</div>
+    	<div class="floor_pic">
+    		<div class="pic_l">
+    			<img src="img/list/3f1.webp" alt="">
+    			<div class="pic_info">
+    				<p>小米</p>
+    				<p><span><i class="icon iconfont icon-31guanzhu1xuanzhong"></i>关注</span></p>
+    			</div>
+    		</div>
+    		<div class="pic_r">
+    			<img src="img/list/3f2.jpg" alt="">
+    		</div>
+    	</div>
+    	<ul class="phone w">
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p1.webp" alt=""></a>
+    				<a href="#" class="pic_t">OPPO Find X 曲面全景屏 8GB+128GB全网通双卡双待拍照手机</a>
+    				<p>双曲面屏幕隐藏式相机</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1399</span>
+    				<span>已售:50782</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p2.webp" alt=""></a>
+    				<a href="#" class="pic_t">荣耀Play</a>
+    				<p>GPU Turbo 让快更快</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1999</span>
+    				<span>已售:27693</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p3.webp" alt=""></a>
+    				<a href="#" class="pic_t">vivo Y85全面屏</a>
+    				<p>新品上市 购机赠豪礼</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1598</span>
+    				<span>已售:4516</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p4.webp" alt=""></a>
+    				<a href="#" class="pic_t">HUAWEI P20</a>
+    				<p>旗舰新品 震撼开售</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥3788</span>
+    				<span>已售:50782</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p5.webp" alt=""></a>
+    				<a href="#" class="pic_t">HUAWEI P20 Pro</a>
+    				<p>4000万徕卡三摄 AI摄影大师</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥4988</span>
+    				<span>已售:12466</span>
+    			</div>
+    		</li>
+    	</ul>
+    </div>
+    <!-- floor4 -->
+    <div class="floor w clearfix">
+    	<div class="floor_t">
+    		<h1><span>4F</span><img src="img/list/4f.webp" alt=""></h1>
+    		<div><span>7*24小时</span><span>正品保障</span></div>
+    		<p>查找服务网点></p>
+    	</div>
+    	<div class="floor_pic">
+    		<div class="pic_l">
+    			<img src="img/list/4f1.webp" alt="">
+    			<div class="pic_info">
+    				<p>华为</p>
+    				<p><span><i class="icon iconfont icon-31guanzhu1xuanzhong"></i>关注</span></p>
+    			</div>
+    		</div>
+    		<div class="pic_r">
+    			<img src="img/list/4f2.jpg" alt="">
+    		</div>
+    	</div>
+    	<ul class="phone w">
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p1.webp" alt=""></a>
+    				<a href="#" class="pic_t">OPPO Find X 曲面全景屏 8GB+128GB全网通双卡双待拍照手机</a>
+    				<p>双曲面屏幕隐藏式相机</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1399</span>
+    				<span>已售:50782</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p2.webp" alt=""></a>
+    				<a href="#" class="pic_t">荣耀Play</a>
+    				<p>GPU Turbo 让快更快</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1999</span>
+    				<span>已售:27693</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p3.webp" alt=""></a>
+    				<a href="#" class="pic_t">vivo Y85全面屏</a>
+    				<p>新品上市 购机赠豪礼</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1598</span>
+    				<span>已售:4516</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p4.webp" alt=""></a>
+    				<a href="#" class="pic_t">HUAWEI P20</a>
+    				<p>旗舰新品 震撼开售</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥3788</span>
+    				<span>已售:50782</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p5.webp" alt=""></a>
+    				<a href="#" class="pic_t">HUAWEI P20 Pro</a>
+    				<p>4000万徕卡三摄 AI摄影大师</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥4988</span>
+    				<span>已售:12466</span>
+    			</div>
+    		</li>
+    	</ul>
+    </div>
+    <!-- floor5 -->
+    <div class="floor w clearfix">
+    	<div class="floor_t">
+    		<h1><span>5F</span><img src="img/list/5f.webp" alt=""></h1>
+    		<div><span>工作时间</span><span>周一至周日8:00-23:00</span></div>
+    		<p>vivo粉丝圈&nbsp;&nbsp;&nbsp;&nbsp;查找服务网点></p>
+    	</div>
+    	<div class="floor_pic">
+    		<div class="pic_l">
+    			<img src="img/list/5f1.webp" alt="">
+    			<div class="pic_info">
+    				<p>vivo</p>
+    				<p><span><i class="icon iconfont icon-31guanzhu1xuanzhong"></i>关注</span></p>
+    			</div>
+    		</div>
+    		<div class="pic_r">
+    			<img src="img/list/5f2.jpg" alt="">
+    		</div>
+    	</div>
+    	<ul class="phone w">
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p1.webp" alt=""></a>
+    				<a href="#" class="pic_t">OPPO Find X 曲面全景屏 8GB+128GB全网通双卡双待拍照手机</a>
+    				<p>双曲面屏幕隐藏式相机</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1399</span>
+    				<span>已售:50782</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p2.webp" alt=""></a>
+    				<a href="#" class="pic_t">荣耀Play</a>
+    				<p>GPU Turbo 让快更快</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1999</span>
+    				<span>已售:27693</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p3.webp" alt=""></a>
+    				<a href="#" class="pic_t">vivo Y85全面屏</a>
+    				<p>新品上市 购机赠豪礼</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1598</span>
+    				<span>已售:4516</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p4.webp" alt=""></a>
+    				<a href="#" class="pic_t">HUAWEI P20</a>
+    				<p>旗舰新品 震撼开售</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥3788</span>
+    				<span>已售:50782</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p5.webp" alt=""></a>
+    				<a href="#" class="pic_t">HUAWEI P20 Pro</a>
+    				<p>4000万徕卡三摄 AI摄影大师</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥4988</span>
+    				<span>已售:12466</span>
+    			</div>
+    		</li>
+    	</ul>
+    </div>
+    <!-- floor6 -->
+    <div class="floor w clearfix">
+    	<div class="floor_t">
+    		<h1><span>6F</span><img src="img/list/6f.webp" alt=""></h1>
+    		<div class="free"><i class="icon iconfont icon-yiguanzhu1"></i>正品保障 全国联保 无忧退换货 顺丰包邮</div>
+    		<p>查找服务网点></p>
+    	</div>
+    	<div class="floor_pic">
+    		<div class="pic_l">
+    			<img src="img/list/6f1.webp" alt="">
+    			<div class="pic_info">
+    				<p>OPPO</p>
+    				<p><span><i class="icon iconfont icon-31guanzhu1xuanzhong"></i>关注</span></p>
+    			</div>
+    		</div>
+    		<div class="pic_r">
+    			<img src="img/list/6f2.jpg" alt="">
+    		</div>
+    	</div>
+    	<ul class="phone w">
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p1.webp" alt=""></a>
+    				<a href="#" class="pic_t">OPPO Find X 曲面全景屏 8GB+128GB全网通双卡双待拍照手机</a>
+    				<p>双曲面屏幕隐藏式相机</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1399</span>
+    				<span>已售:50782</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p2.webp" alt=""></a>
+    				<a href="#" class="pic_t">荣耀Play</a>
+    				<p>GPU Turbo 让快更快</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1999</span>
+    				<span>已售:27693</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p3.webp" alt=""></a>
+    				<a href="#" class="pic_t">vivo Y85全面屏</a>
+    				<p>新品上市 购机赠豪礼</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1598</span>
+    				<span>已售:4516</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p4.webp" alt=""></a>
+    				<a href="#" class="pic_t">HUAWEI P20</a>
+    				<p>旗舰新品 震撼开售</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥3788</span>
+    				<span>已售:50782</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p5.webp" alt=""></a>
+    				<a href="#" class="pic_t">HUAWEI P20 Pro</a>
+    				<p>4000万徕卡三摄 AI摄影大师</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥4988</span>
+    				<span>已售:12466</span>
+    			</div>
+    		</li>
+    	</ul>
+    </div>
+    <!-- floor7 -->
+    <div class="floor w clearfix">
+    	<div class="floor_t">
+    		<h1><span>7F</span><img src="img/list/7f.webp" alt=""></h1>
+    		<div><span>魅族15新品发售</span><span>魅蓝note6 领券最高减200元</span></div>
+    		<div class="free"><i class="icon iconfont icon-yiguanzhu1"></i>400热线电话</div>
+    		<p>魅友专区&nbsp;&nbsp;&nbsp;&nbsp;查找服务网点></p>
+    	</div>
+    	<div class="floor_pic">
+    		<div class="pic_l">
+    			<img src="img/list/7f1.webp" alt="">
+    			<div class="pic_info">
+    				<p>魅族</p>
+    				<p><span><i class="icon iconfont icon-31guanzhu1xuanzhong"></i>关注</span></p>
+    			</div>
+    		</div>
+    		<div class="pic_r">
+    			<img src="img/list/7f2.jpg" alt="">
+    		</div>
+    	</div>
+    	<ul class="phone w">
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p1.webp" alt=""></a>
+    				<a href="#" class="pic_t">OPPO Find X 曲面全景屏 8GB+128GB全网通双卡双待拍照手机</a>
+    				<p>双曲面屏幕隐藏式相机</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1399</span>
+    				<span>已售:50782</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p2.webp" alt=""></a>
+    				<a href="#" class="pic_t">荣耀Play</a>
+    				<p>GPU Turbo 让快更快</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1999</span>
+    				<span>已售:27693</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p3.webp" alt=""></a>
+    				<a href="#" class="pic_t">vivo Y85全面屏</a>
+    				<p>新品上市 购机赠豪礼</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1598</span>
+    				<span>已售:4516</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p4.webp" alt=""></a>
+    				<a href="#" class="pic_t">HUAWEI P20</a>
+    				<p>旗舰新品 震撼开售</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥3788</span>
+    				<span>已售:50782</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p5.webp" alt=""></a>
+    				<a href="#" class="pic_t">HUAWEI P20 Pro</a>
+    				<p>4000万徕卡三摄 AI摄影大师</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥4988</span>
+    				<span>已售:12466</span>
+    			</div>
+    		</li>
+    	</ul>
+    </div>
+    <!-- floor8 -->
+    <div class="floor w clearfix">
+    	<div class="floor_t">
+    		<h1><span>8F</span><img src="img/list/8f.webp" alt=""></h1>
+    		<div><span>三星S9|S9+新品上市</span></div>
+    		<div class="free"><i class="icon iconfont icon-yiguanzhu1"></i>正品保障 全国联保 无忧退换货</div>
+    		<p>查找服务网点></p>
+    	</div>
+    	<div class="floor_pic">
+    		<div class="pic_l">
+    			<img src="img/list/8f1.webp" alt="">
+    			<div class="pic_info">
+    				<p>Samsung/三星</p>
+    				<p><span><i class="icon iconfont icon-31guanzhu1xuanzhong"></i>关注</span></p>
+    			</div>
+    		</div>
+    		<div class="pic_r">
+    			<img src="img/list/8f2.jpg" alt="">
+    		</div>
+    	</div>
+    	<ul class="phone w">
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p1.webp" alt=""></a>
+    				<a href="#" class="pic_t">OPPO Find X 曲面全景屏 8GB+128GB全网通双卡双待拍照手机</a>
+    				<p>双曲面屏幕隐藏式相机</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1399</span>
+    				<span>已售:50782</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p2.webp" alt=""></a>
+    				<a href="#" class="pic_t">荣耀Play</a>
+    				<p>GPU Turbo 让快更快</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1999</span>
+    				<span>已售:27693</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p3.webp" alt=""></a>
+    				<a href="#" class="pic_t">vivo Y85全面屏</a>
+    				<p>新品上市 购机赠豪礼</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1598</span>
+    				<span>已售:4516</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p4.webp" alt=""></a>
+    				<a href="#" class="pic_t">HUAWEI P20</a>
+    				<p>旗舰新品 震撼开售</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥3788</span>
+    				<span>已售:50782</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p5.webp" alt=""></a>
+    				<a href="#" class="pic_t">HUAWEI P20 Pro</a>
+    				<p>4000万徕卡三摄 AI摄影大师</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥4988</span>
+    				<span>已售:12466</span>
+    			</div>
+    		</li>
+    	</ul>
+    </div>
+    <!-- floor9 -->
+    <div class="floor w clearfix">
+    	<div class="floor_t">
+    		<h1><span>9F</span><img src="img/list/9f.webp" alt=""></h1>
+    		<div><span>工作时间</span><span>周一至周日9:00-00:00</span></div>
+    		<div class="free"><i class="icon iconfont icon-yiguanzhu1"></i>400热线电话</div>
+    		<p>查找服务网点></p>
+    	</div>
+    	<div class="floor_pic">
+    		<div class="pic_l">
+    			<img src="img/list/9f1.webp" alt="">
+    			<div class="pic_info">
+    				<p>Meitu/美图</p>
+    				<p><span><i class="icon iconfont icon-31guanzhu1xuanzhong"></i>关注</span></p>
+    			</div>
+    		</div>
+    		<div class="pic_r">
+    			<img src="img/list/9f2.jpg" alt="">
+    		</div>
+    	</div>
+    	<ul class="phone w">
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p1.webp" alt=""></a>
+    				<a href="#" class="pic_t">OPPO Find X 曲面全景屏 8GB+128GB全网通双卡双待拍照手机</a>
+    				<p>双曲面屏幕隐藏式相机</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1399</span>
+    				<span>已售:50782</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p2.webp" alt=""></a>
+    				<a href="#" class="pic_t">荣耀Play</a>
+    				<p>GPU Turbo 让快更快</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1999</span>
+    				<span>已售:27693</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p3.webp" alt=""></a>
+    				<a href="#" class="pic_t">vivo Y85全面屏</a>
+    				<p>新品上市 购机赠豪礼</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1598</span>
+    				<span>已售:4516</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p4.webp" alt=""></a>
+    				<a href="#" class="pic_t">HUAWEI P20</a>
+    				<p>旗舰新品 震撼开售</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥3788</span>
+    				<span>已售:50782</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p5.webp" alt=""></a>
+    				<a href="#" class="pic_t">HUAWEI P20 Pro</a>
+    				<p>4000万徕卡三摄 AI摄影大师</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥4988</span>
+    				<span>已售:12466</span>
+    			</div>
+    		</li>
+    	</ul>
+    </div>
+    <!-- floor10 -->
+    <div class="floor w clearfix">
+    	<div class="floor_t">
+    		<h1><span>10F</span><img src="img/list/10f.webp" alt=""></h1>
+    		<div><span>全国联保</span><span>正品保证</span></div>
+    		<div class="free"><i class="icon iconfont icon-yiguanzhu1"></i>400热线电话</div>
+    		<p>查找服务网点></p>
+    	</div>
+    	<div class="floor_pic">
+    		<div class="pic_l">
+    			<img src="img/list/10f1.webp" alt="">
+    			<div class="pic_info">
+    				<p>360手机</p>
+    				<p><span><i class="icon iconfont icon-31guanzhu1xuanzhong"></i>关注</span></p>
+    			</div>
+    		</div>
+    		<div class="pic_r">
+    			<img src="img/list/10f2.jpg" alt="">
+    		</div>
+    	</div>
+    	<ul class="phone w">
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p1.webp" alt=""></a>
+    				<a href="#" class="pic_t">OPPO Find X 曲面全景屏 8GB+128GB全网通双卡双待拍照手机</a>
+    				<p>双曲面屏幕隐藏式相机</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1399</span>
+    				<span>已售:50782</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p2.webp" alt=""></a>
+    				<a href="#" class="pic_t">荣耀Play</a>
+    				<p>GPU Turbo 让快更快</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1999</span>
+    				<span>已售:27693</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p3.webp" alt=""></a>
+    				<a href="#" class="pic_t">vivo Y85全面屏</a>
+    				<p>新品上市 购机赠豪礼</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1598</span>
+    				<span>已售:4516</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p4.webp" alt=""></a>
+    				<a href="#" class="pic_t">HUAWEI P20</a>
+    				<p>旗舰新品 震撼开售</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥3788</span>
+    				<span>已售:50782</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p5.webp" alt=""></a>
+    				<a href="#" class="pic_t">HUAWEI P20 Pro</a>
+    				<p>4000万徕卡三摄 AI摄影大师</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥4988</span>
+    				<span>已售:12466</span>
+    			</div>
+    		</li>
+    	</ul>
+    </div>
+    <!-- floor11 -->
+    <div class="floor w clearfix">
+    	<div class="floor_t">
+    		<h1><span>11F</span><img src="img/list/11f.webp" alt=""></h1>
+    		<div><span>无边框新品现货</span><span>周一至周日9:00-00:00</span></div>
+    		<div class="free"><i class="icon iconfont icon-yiguanzhu1"></i>1+1快修</div>
+    		<p>牛仔俱乐部&nbsp;&nbsp;&nbsp;&nbsp;查找服务网点></p>
+    	</div>
+    	<div class="floor_pic">
+    		<div class="pic_l">
+    			<img src="img/list/11f1.webp" alt="">
+    			<div class="pic_info">
+    				<p>nubia/努比亚</p>
+    				<p><span><i class="icon iconfont icon-31guanzhu1xuanzhong"></i>关注</span></p>
+    			</div>
+    		</div>
+    		<div class="pic_r">
+    			<img src="img/list/11f2.jpg" alt="">
+    		</div>
+    	</div>
+    	<ul class="phone w">
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p1.webp" alt=""></a>
+    				<a href="#" class="pic_t">OPPO Find X 曲面全景屏 8GB+128GB全网通双卡双待拍照手机</a>
+    				<p>双曲面屏幕隐藏式相机</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1399</span>
+    				<span>已售:50782</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p2.webp" alt=""></a>
+    				<a href="#" class="pic_t">荣耀Play</a>
+    				<p>GPU Turbo 让快更快</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1999</span>
+    				<span>已售:27693</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p3.webp" alt=""></a>
+    				<a href="#" class="pic_t">vivo Y85全面屏</a>
+    				<p>新品上市 购机赠豪礼</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1598</span>
+    				<span>已售:4516</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p4.webp" alt=""></a>
+    				<a href="#" class="pic_t">HUAWEI P20</a>
+    				<p>旗舰新品 震撼开售</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥3788</span>
+    				<span>已售:50782</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p5.webp" alt=""></a>
+    				<a href="#" class="pic_t">HUAWEI P20 Pro</a>
+    				<p>4000万徕卡三摄 AI摄影大师</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥4988</span>
+    				<span>已售:12466</span>
+    			</div>
+    		</li>
+    	</ul>
+    </div>
+    <!-- floor12 -->
+    <div class="floor w clearfix">
+    	<div class="floor_t">
+    		<h1><span>12F</span><img src="img/list/12f.webp" alt=""></h1>
+    		<div><span>诺粉社区</span><span>工作日9:00-19:00 周末9:00-18:00</span></div>
+    		<p>诺粉社区&nbsp;&nbsp;&nbsp;&nbsp;查找服务网点></p>
+    	</div>
+    	<div class="floor_pic">
+    		<div class="pic_l">
+    			<img src="img/list/12f1.webp" alt="">
+    			<div class="pic_info">
+    				<p>诺基亚</p>
+    				<p><span><i class="icon iconfont icon-31guanzhu1xuanzhong"></i>关注</span></p>
+    			</div>
+    		</div>
+    		<div class="pic_r">
+    			<img src="img/list/12f2.jpg" alt="">
+    		</div>
+    	</div>
+    	<ul class="phone w">
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p1.webp" alt=""></a>
+    				<a href="#" class="pic_t">OPPO Find X 曲面全景屏 8GB+128GB全网通双卡双待拍照手机</a>
+    				<p>双曲面屏幕隐藏式相机</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1399</span>
+    				<span>已售:50782</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p2.webp" alt=""></a>
+    				<a href="#" class="pic_t">荣耀Play</a>
+    				<p>GPU Turbo 让快更快</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1999</span>
+    				<span>已售:27693</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p3.webp" alt=""></a>
+    				<a href="#" class="pic_t">vivo Y85全面屏</a>
+    				<p>新品上市 购机赠豪礼</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1598</span>
+    				<span>已售:4516</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p4.webp" alt=""></a>
+    				<a href="#" class="pic_t">HUAWEI P20</a>
+    				<p>旗舰新品 震撼开售</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥3788</span>
+    				<span>已售:50782</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p5.webp" alt=""></a>
+    				<a href="#" class="pic_t">HUAWEI P20 Pro</a>
+    				<p>4000万徕卡三摄 AI摄影大师</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥4988</span>
+    				<span>已售:12466</span>
+    			</div>
+    		</li>
+    	</ul>
+    </div>
+    <!-- floor13 -->
+    <div class="floor w clearfix">
+    	<div class="floor_t">
+    		<h1><span>13F</span><img src="img/list/13f.webp" alt=""></h1>
+    		<div class="free"><i class="icon iconfont icon-yiguanzhu1"></i>全网低价、好货不限量，分期免息、劲爆价格</div>
+    	</div>
+    	<div class="floor_pic">
+    		<div class="pic_l">
+    			<img src="img/list/13f1.webp" alt="">
+    			<div class="pic_info">
+    				<p>实惠精选</p>
+    				<p><span><i class="icon iconfont icon-31guanzhu1xuanzhong"></i>关注</span></p>
+    			</div>
+    		</div>
+    		<div class="pic_r">
+    			<img src="img/list/13f2.jpg" alt="">
+    		</div>
+    	</div>
+    	<ul class="phone w">
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p1.webp" alt=""></a>
+    				<a href="#" class="pic_t">OPPO Find X 曲面全景屏 8GB+128GB全网通双卡双待拍照手机</a>
+    				<p>双曲面屏幕隐藏式相机</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1399</span>
+    				<span>已售:50782</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p2.webp" alt=""></a>
+    				<a href="#" class="pic_t">荣耀Play</a>
+    				<p>GPU Turbo 让快更快</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1999</span>
+    				<span>已售:27693</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p3.webp" alt=""></a>
+    				<a href="#" class="pic_t">vivo Y85全面屏</a>
+    				<p>新品上市 购机赠豪礼</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥1598</span>
+    				<span>已售:4516</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p4.webp" alt=""></a>
+    				<a href="#" class="pic_t">HUAWEI P20</a>
+    				<p>旗舰新品 震撼开售</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥3788</span>
+    				<span>已售:50782</span>
+    			</div>
+    		</li>
+    		<li>
+    			<div class="phone_pic">
+    				<a href="#"><img src="img/list/p5.webp" alt=""></a>
+    				<a href="#" class="pic_t">HUAWEI P20 Pro</a>
+    				<p>4000万徕卡三摄 AI摄影大师</p>
+    			</div>
+    			<div class="phone_price">
+    				<span>￥4988</span>
+    				<span>已售:12466</span>
+    			</div>
+    		</li>
+    	</ul>
+    </div>
+    <!-- 入驻品牌 -->
+    <div class="brand w clearfix">
+    	<h1>入驻品牌</h1>
+    	<ul>
+    		<li><img src="img/list/brand1.webp" alt=""></li>
+    		<li><img src="img/list/brand2.webp" alt=""></li>
+    		<li><img src="img/list/brand3.webp" alt=""></li>
+    		<li><img src="img/list/brand4.webp" alt=""></li>
+    		<li><img src="img/list/brand5.webp" alt=""></li>
+    		<li><img src="img/list/brand6.webp" alt=""></li>
+    		<li><img src="img/list/brand7.webp" alt=""></li>
+    	</ul>
+    	<ul>
+    		<li><img src="img/list/brand8.webp" alt=""></li>
+    		<li><img src="img/list/brand9.webp" alt=""></li>
+    		<li><img src="img/list/brand10.webp" alt=""></li>
+    		<li><img src="img/list/brand11.webp" alt=""></li>
+    		<li><img src="img/list/brand12.webp" alt=""></li>
+    		<li><img src="img/list/brand13.webp" alt=""></li>
+    		<li><img src="img/list/brand14.webp" alt=""></li>
+    	</ul>
+    	<ul>
+    		<li><img src="img/list/brand15.webp" alt=""></li>
+    		<li><img src="img/list/brand16.webp" alt=""></li>
+    		<li><img src="img/list/brand17.webp" alt=""></li>
+    	</ul>
+    </div>
+    <!-- 猜你喜欢 -->
+    <div id="cont" class=" w clearfix">
+        <h1>猜你喜欢</h1>
+        <ul id="userlist" class="user-list">
+        </ul>
+    </div>
+    <!-- 底部 -->
+    <div class="foot clearfix w">
+        <div class="w">
+            <div class="foot_link">
+                <a href="#"><img src="img/list/zd.jpg" alt=""></a>
+            </div>
+            <div class="foot_nav">
+            	<div class="dianqi">
+                    <a href="#"><img src="img/list/dainqi.png" alt=""></a>
+                </div>
+                <dl>
+                    <dt>购物指南</dt>
+                    <dd><a href="#">免费注册</a></dd>
+                    <dd><a href="#">开通支付宝</a></dd>
+                    <dd><a href="#">支付宝充值</a></dd>
+                </dl>
+                <dl>
+                    <dt>电器城保障</dt>
+                    <dd><a href="#">花呗分期</a></dd>
+                    <dd><a href="#">预约配送</a></dd>
+                    <dd><a href="#">送货入户</a></dd>
+                    <dd><a href="#">全国联保</a></dd>
+                </dl>
+                <dl>
+                    <dt>支付方式</dt>
+                    <dd><a href="#">支付宝快捷支付</a></dd>
+                    <dd><a href="#">支付宝余额付款</a></dd>
+                    <dd><a href="#">支付宝钱包付款</a></dd>
+                    <dd><a href="#">货到付款</a></dd>
+                    <dd><a href="#">新人支付</a></dd>
+                </dl>
+                <dl>
+                    <dt>商家服务</dt>
+                    <dd><a href="#">入驻天猫电器城</a></dd>
+                    <dd><a href="#">加入电器城服务保障</a></dd>
+                    <dd><a href="#">电器城喵言喵语圈子</a></dd>
+                    <dd><a href="#">电器城商家管理规范</a></dd>
+                </dl>
+                <div class="weixin">
+                    <a href="#"><img src="img/list/weixin.png" alt=""></a>
+                </div>
+                <div class="maotou">
+                    <a href="#"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer clearfix">
+        <div class="w">
+            <ul class="info clearfix">
+                <li><a href="#">关于天猫</a></li>
+                <li><a href="#">帮助中心</a></li>
+                <li><a href="#">开放平台</a></li>
+                <li><a href="#">诚聘英才</a></li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#">网站合作</a></li>
+                <li><a href="#">法律声明</a></li>
+                <li><a href="#">隐私权政策</a></li>
+                <li><a href="#">知识产权</a></li>
+                <li><a href="#">廉正举报</a></li>
+            </ul>
+            <ul class="fastlink clearfix">
+                <li><a href="#">阿里巴巴集团</a></li>
+                <li><a href="#">淘宝网</a></li>
+                <li><a href="#">天猫</a></li>
+                <li><a href="#">聚划算</a></li>
+                <li><a href="#">全球速卖通</a></li>
+                <li><a href="#">阿里巴巴国际交易市场</a></li>
+                <li><a href="#">1688</a></li>
+                <li><a href="#">阿里妈妈</a></li>
+                <li><a href="#">飞猪</a></li>
+                <li><a href="#">阿里云计算</a></li>
+                <li><a href="#">AliOS</a></li>
+                <li><a href="#">阿里通信 </a></li>
+                <li><a href="#">万网</a></li>
+                <li><a href="#">高德 </a></li>
+                <li><a href="#">UC</a></li>
+                <li><a href="#">友盟</a></li>
+                <li><a href="#">虾米</a></li>
+                <li><a href="#">钉钉</a></li>
+                <li><a href="#">支付宝</a></li>
+            </ul>
+            <ul class="infos clearfix">
+                <li>增值电信业务经营许可证：<a href="#">浙B2-20110446</a></li>
+                <li>网络文化经营许可证：<a href="#">浙网文[2015]0295-065号</a></li>
+                <li><a href="#">12318举报</a></li>
+                <li>出版物网络交易平台服务经营备案证：<a href="#">新出发浙备字第001号</a></li>
+                <li>互联网违法和不良信息举报电话：<a href="#">0571-81683755 blxxjb@alibaba-inc.com</a></li>
+                <li>互联网药品信息服务资质证书编号：<a href="#">浙-（经营性）-2017-0005</a></li>
+                <li><a href="#"><img src="img/index/an.png" alt="">浙公网安备 33010002000120号</a></li>
+                <li>（浙）网械平台备字[2018]第00002号</li>
+            </ul>
+            <div class="copy">© 2003-2018 TMALL.COM 版权所有</div>
+        </div>
+    </div>
+	<!-- 右侧导航栏 -->
+	<div class="rightnav clearfix">
+		<ul>
+			<li><i class="icon iconfont icon-wo"></i>
+				<div class="nav_down">
+					<a href="#">会员权益</a>
+				</div>
+			</li>
+			<li class="shop"><i class="icon iconfont icon-tianmaochaoshigouwuche"></i>购物车</li>
+			<li><i class="icon iconfont icon-goumai"></i>
+				<div class="nav_down">
+					<a href="#">我的资产</a>
+				</div>
+			</li>
+			<li><i class="icon iconfont icon-shoucang"></i>
+				<div class="nav_down">
+					<a href="#">我的收藏</a>
+				</div>
+			</li>
+			<li><i class="icon iconfont icon-shijian"></i>
+				<div class="nav_down">
+					<a href="#">我看过的</a>
+				</div>
+			</li>
+		</ul>
+		<ul>
+			<li><i class="icon iconfont icon-QRcode"></i></li>
+			<li><a href="#"><i class="icon iconfont icon-top"></a></i>
+				<div class="nav_down">
+					<a href="#">返回顶部</a>
+				</div>
+			</li>
+		</ul>
+	</div>
+</body>
+
+</html>

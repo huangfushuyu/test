@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>详情页</title>
+    <link rel="stylesheet" type="text/css" href="css/details.css">
+    <link rel="stylesheet" type="text/css" href="css/iconfont.css">
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/details.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="w">
+            <ul class="header_l">
+                <li><a href="#" class="l_link"><i class="icon iconfont icon-31shouyexuanzhong"></i>天猫首页</a></li>
+                <li><a>喵,欢迎来天猫</a></li>
+                <li><a href="#" class="l_link">请登录</a></li>
+                <li><a href="#" class="l_link">免费注册</a></li>
+            </ul>
+            <ul class="header_r">
+                <li>
+                    <a href="#" class="my">我的淘宝<i class="icon iconfont icon-sanjiao1"></i></a>
+                    <div class="down">
+                        <p><a href="#">已买到的宝贝</a></p>
+                        <p><a href="#">已卖出的宝贝</a></p>
+                    </div>
+                </li>
+                <li><a href="#"><i class="icon iconfont icon-31gouwuchexuanzhong"></i>购物车0件</a></li>
+                <li><a href="#" class="my">收藏夹<i class="icon iconfont icon-sanjiao1"></i></a>
+                    <div class="down">
+                        <p><a href="#">已买到的宝贝</a></p>
+                        <p><a href="#">已卖出的宝贝</a></p>
+                    </div>
+                </li>
+                <li><a href="#"><i class="icon iconfont icon-shouji"></i>手机版</a>
+                    <div class="down ip_down">
+                        <a href="#"><img src="img/index/ip1.png" alt=""></a>
+                        <a href="#"><img src="img/index/ip2.png" alt=""></a>
+                    </div>
+                </li>
+                <li><a href="#">淘宝网</a></li>
+                <li><a href="#" class="my">商家支持<i class="icon iconfont icon-sanjiao1"></i></a>
+                    <div class="down store_down">
+                        <h6>商家支持:</h6>
+                        <ul>
+                            <li><a href="#">商家中心</a></li>
+                            <li><a href="#">天猫规则</a></li>
+                            <li><a href="#">商家入驻</a></li>
+                            <li><a href="#">运营服务</a></li>
+                            <li><a href="#">商家品控</a></li>
+                            <li><a href="#">商家工具</a></li>
+                            <li><a href="#">天猫智库</a></li>
+                            <li><a href="#">喵言喵语</a></li>
+                        </ul>
+                        <h6>帮助:</h6>
+                        <ul>
+                            <li><a href="#">帮助中心</a></li>
+                            <li><a href="#">问商友</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="my">
+                    <i class="icon iconfont icon-liebiao1"></i>
+                    	网站导航
+                    <i class="icon iconfont icon-sanjiao1"></i>
+                    </a>
+                    <div class="down web_down">
+                        <div class="web_l">
+                            <h6>热点推荐Hot</h6>
+                            <ul>
+                                <li><a href="#">天猫超市</a></li>
+                                <li><a href="#">喵鲜生</a></li>
+                                <li><a href="#">科技新品</a></li>
+                                <li><a href="#">女装新品</a></li>
+                                <li><a href="#">酷玩街</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">内衣新品</a></li>
+                                <li><a href="#">试美妆</a></li>
+                                <li><a href="#">运动新品</a></li>
+                                <li><a href="#">时尚先生</a></li>
+                                <li><a href="#">精明妈咪</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">吃乐会</a></li>
+                                <li><a href="#">企业采购</a></li>
+                                <li><a href="#">会员积分</a></li>
+                                <li><a href="#">天猫国际</a></li>
+                                <li><a href="#">品质频道</a></li>
+                            </ul>
+                        </div>
+                        <div class="web_c">
+                            <h6>行业市场Market</h6>
+                            <ul>
+                                <li><a href="#">美妆</a></li>
+                                <li><a href="#">电器</a></li>
+                                <li><a href="#">女装</a></li>
+                                <li><a href="#">男装</a></li>
+                                <li><a href="#">女鞋</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">男鞋</a></li>
+                                <li><a href="#">内衣</a></li>
+                                <li><a href="#">箱包</a></li>
+                                <li><a href="#">运动</a></li>
+                                <li><a href="#">母婴</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">家装</a></li>
+                                <li><a href="#">医药</a></li>
+                                <li><a href="#">食品</a></li>
+                                <li><a href="#">配饰</a></li>
+                                <li><a href="#">汽车</a></li>
+                            </ul>
+                        </div>
+                        <div class="web_r">
+                            <h6>服务指南Help</h6>
+                            <ul>
+                                <li><a href="#">天猫超市</a></li>
+                                <li><a href="#">喵鲜生</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">科技新品</a></li>
+                                <li><a href="#">女装新品</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 搜索框 -->
+    <div class="search clearfix">
+        <div class="w">
+            <ul class="search_list">
+                <li class="search_pic"><img src="img/logo.png" alt=""></li>
+                <li class="">
+                    <p>华为官方旗舰店</p>
+                    <p><span>品牌直销</span><img src="img/details/wangwang.png" alt=""></p>
+                </li>
+                <li>
+                    <p>描述服务物流</p><img src="img/details/jiantou.png" alt=""></li>
+                <li>
+                    <p>手机逛</p>
+                    <p><i class="icon iconfont icon-QRcode"></i><i class="icon iconfont icon-sanjiao1"></i></p>
+                </li>
+            </ul>
+            <div class="ipt">
+                <input type="text" name="search" class="search_ipt" placeholder="搜索 天猫 商品/品牌/店铺">
+                <button>搜本店</button>
+                <button>搜天猫</button>
+            </div>
+            <ul class="fastlink">
+                <li><a href="#">华为</a></li>
+                <li><a href="#">手机</a></li>
+                <li><a href="#">华为nova3</a></li>
+                <li><a href="#">华为手机</a></li>
+                <li><a href="#">nova3</a></li>
+                <li><a href="#">华为nova</a></li>
+                <li><a href="#">华为全面屏</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 导航位置 -->
+    <div class="topnav clearfix">
+        <div class="w">
+            <div class="navtop">
+                <img src="img/details/top2.png" alt="">
+                <img src="img/details/top1.png" alt="">
+            </div>
+            <ul class="nav">
+                <li><a href="#">HUAWEI Mate系列</a></li>
+                <li><a href="#">HUAWEI nova</a></li>
+                <li><a href="#">HUAWEI P系列</a></li>
+                <li><a href="#">畅享系列</a></li>
+                <li><a href="#">麦芒系列</a></li>
+                <li><a href="#">穿戴设备</a></li>
+                <li><a href="#">平板/笔记本</a></li>
+                <li><a href="#">智能家庭</a></li>
+                <li><a href="#">配件</a></li>
+                <li><a href="#">服务</a></li>
+                <li><a href="#">华为VIP</a></li>
+            </ul>
+            <div class="navipt">
+                <input type="text">
+                <i class="icon iconfont icon-sousuo"></i>
+            </div>
+        </div>
+    </div>
+    <!-- 放大镜区域 -->
+    <div class="main w clearfix">
+        <div class="mainleft">
+            <div id="small">
+                <img src="img/details/1.jpg" id="small_pic">
+                <div id="move"></div>
+            </div>
+            <!--大图-->
+            <div id="big">
+                <img src="img/details/1.jpg" id="big_pic">
+            </div>
+            <!--点击li切换图片-->
+            <ul id="dian">
+                <li><img src="img/details/1.jpg"></li>
+                <li><img src="img/details/2.jpg"></li>
+                <li><img src="img/details/3.jpg"></li>
+                <li><img src="img/details/4.jpg"></li>
+                <li><img src="img/details/5.jpg"></li>
+            </ul>
+            <ul class="tit">
+                <li><a href="#"><i class="icon iconfont icon-31fenxiang"></i>分享</a></li>
+                <li><a href="#"><i class="icon iconfont icon-31shoucangxuanzhong"></i>收藏商品(12999人气)</a></li>
+                <li><a href="#">举报</a></li>
+            </ul>
+        </div>
+        <div class="mainc">
+            <div class="c_tit">
+                <p><a href="#">【享3期免息】Huawei/华为 nova 3星耀版全面屏千玺代言智能手机</a></p>
+                <p>立即抢购 享3期免息 晒单赢自拍杆</p>
+            </div>
+            <div class="c_price">
+                <p class="price_one"><img src="img/details/gou.png" alt=""><span>全天猫实物商品通用</span><span>去刮券</span></p>
+                <p class="price_two"><span>价格</span><span>￥2999.00</span></p>
+                <p class="price_three"><span>本店活动</span><span>
+满99元,包邮</span><span>更多优惠</span></p>
+            </div>
+            <div class="c_yun">
+                <span>运费</span>
+                <span>广东深圳至 北京<i class="icon iconfont icon-fanhui4"></i>快递: 0.00</span>
+            </div>
+            <ul class="sale">
+                <li>月销量<span>1373</span></li>
+                <li>累计评价<span>275</span></li>
+                <li>送天猫积分<span>299</span></li>
+            </ul>
+            <ul class="choice">
+                <li><span>网络类型</span><span>4G全网通</span></li>
+                <li><span>机身颜色</span><span>樱草金-星耀版</span></li>
+                <li><span>套餐类型</span><span>官方标配</span></li>
+                <li><span>存储容量</span><span>6+128GB</span></li>
+                <li><span>购买方式</span><span>赠10元天猫权益礼包</span></li>
+                <li><span>优惠活动</span><span>赠10元天猫权益礼包</span>
+                    <p>含2张5元天猫购物劵有效期7天，可1分钱领阿里宝卡。见详情页</p>
+                </li>
+                <li><span>数量</span><img src="img/details/c1.png" alt=""><span>件 库存72件</span></li>
+                <li><span>花呗分期</span>
+                    <p>该商品最高可享3期分期免息</p>
+                    <ul class="fenqi">
+                        <li>￥999.66x3期(0手续费)</li>
+                        <li>￥522.32x6期(含手续费)</li>
+                        <li>￥268.65x12期(含手续费)</li>
+                    </ul>
+                </li>
+                <li>
+                    <button>立即购买</button>
+                    <button><i class="icon iconfont icon-tianmaochaoshigouwuche"></i>加入购物车</button>
+                </li>
+            </ul>
+        </div>
+        <!-- 看了又看 -->
+        <div class="mainright">
+            <h6>看了又看</h6>
+            <ul class="lun">
+                <li class="active">
+                    <ul>
+                        <li><img src="img/details/r1.jpg" alt="">
+                            <span>￥3999.00</span>
+                            <p>【享6期免息】Huawei/华为 Mate 10 Pro 全面屏徕卡镜头智能手机</p>
+                        </li>
+                        <li><img src="img/details/r2.jpg" alt="">
+                            <span>￥1999.00</span>
+                            <p>【领券立减50】Huawei/华为 nova 3e 全面屏官方正品智能手机</p>
+                        </li>
+                        <li><img src="img/details/r3.jpg" alt="">
+                            <span>￥2599.00</span>
+                            <p>【享6期免息】Huawei/华为 nova 2s 全面屏四镜头正品智能4G手机</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li><img src="img/details/r4.jpg" alt="">
+                            <span>￥3788.00</span>
+                            <p>【享6期免息】Huawei/华为 P20全面屏徕卡双摄官方正品智能手机</p>
+                        </li>
+                        <li><img src="img/details/r5.jpg" alt="">
+                            <span>￥4988.00</span>
+                            <p>【享6期免息】Huawei/华为 P20 Pro全面屏徕卡三摄正品智能手机</p>
+                        </li>
+                        <li><img src="img/details/r6.jpg" alt="">
+                            <span>￥1199.00</span>
+                            <p>【新品上市 3期免息】Huawei/华为 B5 智能运动蓝牙通话手环</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li><img src="img/details/r7.jpg" alt="">
+                            <span>￥1099.00</span>
+                            <p>【直降200元】Huawei/华为 畅享8 全面屏后置双摄正品4G手机</p>
+                        </li>
+                        <li><img src="img/details/r8.jpg" alt="">
+                            <span>￥3999.00</span>
+                            <p>【享6期免息】Huawei/华为 Mate 10 Pro 全面屏徕卡镜头智能手机</p>
+                        </li>
+                        <li><img src="img/details/r9.jpg" alt="">
+                            <span>￥3399.00</span>
+                            <p>【享6期免息】Huawei/华为 Mate 10 全网通徕卡镜头正品智能手机</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="next"><i class="icon iconfont icon-fanhui4"></i></div>
+            <div class="prev"><i class="icon iconfont icon-fanhui3"></i></div>
+        </div>
+    </div>
+    <!-- 商品详情 -->
+    <div class="content w clearfix">
+        <div class="content_l">
+            <div class="l_top">
+                <h3>华为官方旗舰店<span></span></h3>
+                <p><span>3</span>天猫3年店</p>
+                <p>描述服务物流</p><img src="img/details/jiantou.png" alt="">
+                <button>进店逛逛</button>
+                <button>收藏店铺</button>
+            </div>
+            <ul class="l_pic">
+                <li><img src="img/details/l1.jpg" alt=""></li>
+                <li><img src="img/details/l2.jpg" alt=""></li>
+                <li><img src="img/details/l3.jpg" alt=""></li>
+                <li><img src="img/details/l4.jpg" alt=""></li>
+                <li><img src="img/details/l5.jpg" alt=""></li>
+                <li><img src="img/details/l6.jpg" alt=""></li>
+            </ul>
+        </div>
+        <div class="content_r">
+            <ul class="r_tit">
+                <li>商品详情</li>
+                <li>规格参数</li>
+                <li>累计评价</li>
+                <li>手机购买</li>
+            </ul>
+            <p class="r_copy"><img src="img/details/ico.png" alt="">商品具有<span>中国强制性产品认证（CCC）编号</span>，符合国家CCC认证标准。</p>
+            <div class="r_info">
+                <h6>品牌名称：Huawei/华为</h6>
+                <p><span>产品参数：</span><span>更多参数</span></p>
+                <dl>
+                    <dd>证书编号：2018011606077896</dd>
+                    <dd>3C规格型号：PAR-AL00（开关电源适配器：HW-059200CHQ 输出：5VDC 2A或9VDC ...</dd>
+                    <dd>机身颜色: 樱草金-星耀版</dd>
+                    <dd>网络模式: 双卡双待单通</dd>
+                </dl>
+                <dl>
+                    <dd>证书状态：有效</dd>
+                    <dd>产品名称：Huawei/华为 NOVA 3</dd>
+                    <dd>运行内存RAM: 6GB</dd>
+                </dl>
+                <dl>
+                    <dd>产品名称：TD-LTE数字移动电话机</dd>
+                    <dd>华为型号: nova 3</dd>
+                    <dd>存储容量: 6+128GB</dd>
+                </dl>
+            </div>
+            <ul class="r_pic">
+                <li><img src="img/details/p1.jpg" alt=""></li>
+                <li><img src="img/details/p2.jpg" alt=""></li>
+                <li><img src="img/details/p3.jpg" alt=""></li>
+                <li><img src="img/details/p4.jpg" alt=""></li>
+                <li><img src="img/details/p5.jpg" alt=""></li>
+                <li><img src="img/details/p6.jpg" alt=""></li>
+                <li><img src="img/details/p7.jpg" alt=""></li>
+                <li><img src="img/details/p8.jpg" alt=""></li>
+                <li><img src="img/details/p9.jpg" alt=""></li>
+                <li><img src="img/details/p10.jpg" alt=""></li>
+                <li><img src="img/details/p11.jpg" alt=""></li>
+                <li><img src="img/details/p12.jpg" alt=""></li>
+                <li><img src="img/details/p13.jpg" alt=""></li>
+                <li><img src="img/details/p14.jpg" alt=""></li>
+                <li><img src="img/details/p15.jpg" alt=""></li>
+                <li><img src="img/details/p16.jpg" alt=""></li>
+                <li><img src="img/details/p17.jpg" alt=""></li>
+                <li><img src="img/details/p18.jpg" alt=""></li>
+                <li><img src="img/details/p19.jpg" alt=""></li>
+                <li><img src="img/details/p20.jpg" alt=""></li>
+                <li><img src="img/details/p21.jpg" alt=""></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <div class="foot clearfix">
+        <div class="w">
+            <ul class="foot_link">
+                <li><a href="#"><span>优</span><span>品质保障</span><span>品质护航 购物无忧</span></a></li>
+                <li><a href="#"><span>七</span><span>七天无理由退换货</span><span>为您提供售后无忧保障</span></a></li>
+                <li><a href="#"><span>特</span><span>特色服务体验</span><span>为您呈现不一样的服务</span></a></li>
+                <li><a href="#"><span>帮</span><span>帮助中心</span><span>您的购物指南</span></a></li>
+            </ul>
+            <div class="foot_nav">
+                <dl>
+                    <dt>购物指南</dt>
+                    <dd><a href="#">免费注册</a></dd>
+                    <dd><a href="#">开通支付宝</a></dd>
+                    <dd><a href="#">支付宝充值</a></dd>
+                </dl>
+                <dl>
+                    <dt>天猫保障</dt>
+                    <dd><a href="#">发票保障</a></dd>
+                    <dd><a href="#">售后规则</a></dd>
+                    <dd><a href="#">缺货赔付</a></dd>
+                </dl>
+                <dl>
+                    <dt>支付方式</dt>
+                    <dd><a href="#">快捷支付</a></dd>
+                    <dd><a href="#">信用卡</a></dd>
+                    <dd><a href="#">余额宝</a></dd>
+                    <dd><a href="#">蚂蚁花呗</a></dd>
+                    <dd><a href="#">货到付款</a></dd>
+                </dl>
+                <dl>
+                    <dt>商家服务</dt>
+                    <dd><a href="#">天猫规则</a></dd>
+                    <dd><a href="#">商家入驻</a></dd>
+                    <dd><a href="#">商家中心</a></dd>
+                    <dd><a href="#">天猫智库</a></dd>
+                    <dd><a href="#">物流服务</a></dd>
+                    <dd><a href="#">喵言喵语</a></dd>
+                    <dd><a href="#">运营服务</a></dd>
+                </dl>
+                <div class="weixin">
+                    <a href="#"><img src="img/index/weixin.png" alt=""></a>
+                </div>
+                <div class="maotou">
+                    <a href="#"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer clearfix">
+        <div class="w">
+            <ul class="info clearfix">
+                <li><a href="#">关于天猫</a></li>
+                <li><a href="#">帮助中心</a></li>
+                <li><a href="#">开放平台</a></li>
+                <li><a href="#">诚聘英才</a></li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#">网站合作</a></li>
+                <li><a href="#">法律声明</a></li>
+                <li><a href="#">隐私权政策</a></li>
+                <li><a href="#">知识产权</a></li>
+                <li><a href="#">廉正举报</a></li>
+            </ul>
+            <ul class="fastlink clearfix">
+                <li><a href="#">阿里巴巴集团</a></li>
+                <li><a href="#">淘宝网</a></li>
+                <li><a href="#">天猫</a></li>
+                <li><a href="#">聚划算</a></li>
+                <li><a href="#">全球速卖通</a></li>
+                <li><a href="#">阿里巴巴国际交易市场</a></li>
+                <li><a href="#">1688</a></li>
+                <li><a href="#">阿里妈妈</a></li>
+                <li><a href="#">飞猪</a></li>
+                <li><a href="#">阿里云计算</a></li>
+                <li><a href="#">AliOS</a></li>
+                <li><a href="#">阿里通信 </a></li>
+                <li><a href="#">万网</a></li>
+                <li><a href="#">高德 </a></li>
+                <li><a href="#">UC</a></li>
+                <li><a href="#">友盟</a></li>
+                <li><a href="#">虾米</a></li>
+                <li><a href="#">钉钉</a></li>
+                <li><a href="#">支付宝</a></li>
+            </ul>
+            <ul class="infos clearfix">
+                <li>增值电信业务经营许可证：<a href="#">浙B2-20110446</a></li>
+                <li>网络文化经营许可证：<a href="#">浙网文[2015]0295-065号</a></li>
+                <li><a href="#">12318举报</a></li>
+                <li>出版物网络交易平台服务经营备案证：<a href="#">新出发浙备字第001号</a></li>
+                <li>互联网违法和不良信息举报电话：<a href="#">0571-81683755 blxxjb@alibaba-inc.com</a></li>
+                <li>互联网药品信息服务资质证书编号：<a href="#">浙-（经营性）-2017-0005</a></li>
+                <li><a href="#"><img src="img/index/an.png" alt="">浙公网安备 33010002000120号</a></li>
+                <li>（浙）网械平台备字[2018]第00002号</li>
+            </ul>
+            <div class="copy">
+                © 2003-2018 TMALL.COM 版权所有
+            </div>
+        </div>
+    </div>
+    <!-- 右侧导航栏 -->
+    <div class="rightnav clearfix">
+        <ul>
+            <li><i class="icon iconfont icon-wo"></i>
+                <div class="nav_down">
+                    <a href="#">会员权益</a>
+                </div>
+            </li>
+            <li class="shop"><i class="icon iconfont icon-tianmaochaoshigouwuche"></i>购物车</li>
+            <li><i class="icon iconfont icon-goumai"></i>
+                <div class="nav_down">
+                    <a href="#">我的资产</a>
+                </div>
+            </li>
+            <li><i class="icon iconfont icon-shoucang"></i>
+                <div class="nav_down">
+                    <a href="#">我的收藏</a>
+                </div>
+            </li>
+            <li><i class="icon iconfont icon-shijian"></i>
+                <div class="nav_down">
+                    <a href="#">我看过的</a>
+                </div>
+            </li>
+        </ul>
+        <ul>
+            <li><i class="icon iconfont icon-QRcode"></i></li>
+            <li><a href="#"><i class="icon iconfont icon-top"></a></i>
+                <div class="nav_down">
+                    <a href="#">返回顶部</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
